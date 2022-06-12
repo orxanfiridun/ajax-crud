@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="ajax2.css" />
+  </head>
+  <body>
+    <button id="melumatlari-getir">Melumatlari Goster</button>
+
+    <button id="deneme">deneme</button>
+
+    <div id="detay"></div>
+
+    <div id="main">
+      <div id="container"></div>
+      <div id="inputlar">
+        <input id="name" placeholder="ad..." class="form-control" />
+        <input id="email" placeholder="mail..." class="form-control" />
+        <select id="gender" class="form-control">
+          <option value="0" disabled selected>cins...</option>
+          <option value="male">kisi</option>
+          <option value="female">qadin</option>
+        </select>
+        <select id="status" class="form-control">
+          <option value="active">aktiv</option>
+          <option value="inactive">qeyri aktiv</option>
+        </select>
+        <!-- <input id="gender" placeholder="cins..."> -->
+        <!-- <input id="status" placeholder="status..."> -->
+
+        <button data-id="0" id="qeydet" style="display: block">Qeyd Et</button>
+      </div>
+    </div>
+
+    <script src="jequery.js "></script>
+    <script src="funksiyalar.js"></script>
+    <script src="ajax2.js"></script>
+    <script src="events.js"></script>
+  </body>
+</html>

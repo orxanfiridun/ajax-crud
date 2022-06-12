@@ -1,0 +1,28 @@
+#main{
+    display: flex;
+}
+
+#container{
+    flex:4
+}
+
+#inputlar{
+    flex:1;
+}
+
+input,select{
+    margin-top: 10px;
+}
+
+.post{
+    border: 1px solid;
+    border-radius: 6px;
+    margin: 15px;
+    padding: 15px;
+}
+.comment{
+    border: 1px solid;
+        border-radius: 6px;
+        margin: 15px;
+        padding: 15px;
+}
