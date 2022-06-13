@@ -1,6 +1,6 @@
 $.ajaxSetup({
     beforeSend: function (xhr) {
-        xhr.setRequestHeader('Authorization', 'Bearer Bearer a2e6c995dc5e8dfd31a0aab93fe655b22a6e39a1f377051d162c65155297e040');
+        xhr.setRequestHeader('Authorization', 'Bearer a2e6c995dc5e8dfd31a0aab93fe655b22a6e39a1f377051d162c65155297e040');
     },
 });
 
